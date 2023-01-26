@@ -133,7 +133,7 @@ New-MgUser -DisplayName "Mons Monsen" `
 #Kontrollerer at brukeren er opprettet
 Get-MgUser -UserID 0d78c356-e44f-42fb-9f5c-e14d3c716851
 
-#Legger til ytterligere informasjon i til brukeren. Kan kontrolleres i Azure AD da det kan ta litt tid å oppdatere seg
+#Legger til ytterligere informasjon i til brukeren. Kan kontrolleres i Azure AD da det kan ta litt tid å oppdatere seg.
 Update-MgUser -UserID 0d78c356-e44f-42fb-9f5c-e14d3c716851 `
 -Department "IT" `
 -Company "Learn IT"
